@@ -1,0 +1,61 @@
+                        /************************header section*************************/
+
+
+header{
+    background-color: #fff4e7;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-div-2{
+    display: flex;
+}
+.header-section-1{
+    text-align: center;
+}
+
+.header-section-1-h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.explor-btn{
+    padding: 10px 8px;
+    margin: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: #ff900e;
+    color: whitesmoke;
+}
+.header-section-2{
+    text-align: center;
+}
+
+
+
+
+
+                 /****************************media query for small device*************************/
+
+ @media only screen and (max-width:576px) {
+.nav-div-2{
+    flex-direction: column;
+}
+h4{
+    
+}
+nav{
+    text-align: center;
+}
+}  
+
+
+
+                /*******************************media query for large device***************************/
+
+@media only screen and (min-width:577px)  {
+    h4{
+        padding: 15px;
+    }
+}              
